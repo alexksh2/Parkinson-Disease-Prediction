@@ -40,21 +40,21 @@ F1-score : A machine learning evaluation metric that measures a model's accuracy
 
 
 __1. Logistic Regression:__ <br>
-   <br> F1-score = 0.88 
-   <br> Overall Accuracy Rate = 21 / 24 
-   <br> False Positive = 2
+   <br> F1-score = 0.8461538
+   <br> Overall Accuracy Rate = 20 / 24 
+   <br> False Positive = 3
    <br> False Negative = 1 <br>
 
 __2. K-Nearest Neighbors Algorithm:__ <br>
-   <br> F1-score = 0.7272727 
-   <br> Overall Accuracy Rate = 18 / 24 
-   <br> False Positive = 2
-   <br> False Negative = 4 <br>
+   <br> F1-score = 0.8695652
+   <br> Overall Accuracy Rate = 21 / 24 
+   <br> False Positive = 1
+   <br> False Negative = 2 <br>
    
 __3. Classification and Regression Tree Model:__ <br>
-   <br> F1-score = 0.8461538 
-   <br> Overall Accuracy Rate = 20 / 24 
-   <br> False Positive = 3
+   <br> F1-score = 0.7857143
+   <br> Overall Accuracy Rate = 18 / 24 
+   <br> False Positive = 5
    <br> False Negative = 1 <br>
 
 __4. Random Forest:__ <br>
@@ -64,12 +64,7 @@ __4. Random Forest:__ <br>
    <br> False Negative = 2 <br>
 
 # Conclusion:
-__Although Random Forest Model has a lower F1 score than logistic regression, the machine learning model has similar overall accuracy rate and lower number of False Negative than  logistic regression.__ <br>
-
-
-Considering that the significance of this report is to accurately predict the occurence of Parkinson Disease such that early preventive interventions can be taken, __lower number of false negative is preferred and therefore Random Forest Model is a better machine learning model__
-
-   
+__K-Nearest Neighbours Algorithm and Random Forest__ are the two best-performing classification models for this analysis. __However, random seed values are observed to have a significant effect on all machine learning models performance.__ __Therefore, it may be concluded that more data records are required to provide a more comprehensive assessment on all machine learning models
 
 
 
