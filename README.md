@@ -79,7 +79,6 @@ __K-Nearest Neighbours Algorithm and Random Forest__ are the two best-performing
 
 
 
-__All Rights Reserved © Alex Khoo Shien How 2023__
 
 # Citations
 
