@@ -63,8 +63,14 @@ __4. Random Forest:__ <br>
    <br> False Positive = 1 
    <br> False Negative = 2 <br>
 
+![Variable Importance Plot of Random Forest](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/b1fe7cb4-67c5-494a-afb7-bf72de5afc4d)
+
+
+
 # Conclusion:
 __K-Nearest Neighbours Algorithm and Random Forest__ are the two best-performing classification models for this analysis. __However, random seed values are observed to have a significant effect on all machine learning models performance.__ __Therefore, it may be concluded that more data records are required to provide a more comprehensive assessment on all machine learning models
+
+
 
 
 
