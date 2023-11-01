@@ -57,6 +57,11 @@ __3. Classification and Regression Tree Model:__ <br>
    <br> False Positive = 5
    <br> False Negative = 1 <br>
 
+![Optimal CART Model](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/49be9116-50f1-4e51-a14a-548ffebbf307)
+
+![Variable Important Bar Chart (Optimal CART Model)](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/7318e749-73a3-4c91-be52-ffa8db0c599a)
+
+
 __4. Random Forest:__ <br>
    <br> F1-score 0.8695652 
    <br> Overall Accuracy Rate = 21 / 24 
