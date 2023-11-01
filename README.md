@@ -9,7 +9,6 @@ In fact, research studies has indicated that __the characterisation of prediagno
 Therefore, several machine learning classification models such as __Logistic Regression, K-Nearest Neighbors Algorithm, Classification and Regression Tree Model and Random Forest__ have been modelled using the input dataset such that accurate predictive diagnosis of Parkinson Disease can be conducted using Artificial Intelligence.
 
 
-![image](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/4a719713-a13c-429d-bb27-9d4022b583c2)
 
 # Information About Dataset Used
 
