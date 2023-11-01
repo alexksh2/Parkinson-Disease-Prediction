@@ -1,6 +1,3 @@
-# Note:
-
-   The sample.split function in r is generating different outputs despite the seed value is fixed when a new session of r is created. Therefore,
 
 # Predictive Diagnosis of Parkinson Disease 
 
@@ -43,26 +40,26 @@ F1-score : A machine learning evaluation metric that measures a model's accuracy
 
 
 __1. Logistic Regression:__ <br>
+   <br> F1-score = 0.88
+   <br> Overall Accuracy Rate = 21 / 24 
+   <br> False Positive = 2
+   <br> False Negative = 1 <br>
+
+__2. K-Nearest Neighbors Algorithm:__ <br>
+   <br> F1-score = 0.7272727
+   <br> Overall Accuracy Rate = 18 / 24 
+   <br> False Positive = 2
+   <br> False Negative = 4 <br>
+   
+__3. Classification and Regression Tree Model:__ <br>
    <br> F1-score = 0.8461538
    <br> Overall Accuracy Rate = 20 / 24 
    <br> False Positive = 3
    <br> False Negative = 1 <br>
 
-__2. K-Nearest Neighbors Algorithm:__ <br>
-   <br> F1-score = 0.8695652
-   <br> Overall Accuracy Rate = 21 / 24 
-   <br> False Positive = 1
-   <br> False Negative = 2 <br>
-   
-__3. Classification and Regression Tree Model:__ <br>
-   <br> F1-score = 0.7857143
-   <br> Overall Accuracy Rate = 18 / 24 
-   <br> False Positive = 5
-   <br> False Negative = 1 <br>
+![Optimal CART Model](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/7e3a56eb-a5af-4661-bfbb-e18212b0c524)
 
-![Optimal CART Model](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/49be9116-50f1-4e51-a14a-548ffebbf307)
-
-![Variable Important Bar Chart (Optimal CART Model)](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/7318e749-73a3-4c91-be52-ffa8db0c599a)
+![Variable Importance Bar Chart (Optimal CART Model)](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/dcfd8ae5-b3f7-4193-9ffd-8dc97335a9b5)
 
 
 __4. Random Forest:__ <br>
@@ -71,12 +68,12 @@ __4. Random Forest:__ <br>
    <br> False Positive = 1 
    <br> False Negative = 2 <br>
 
-![Variable Importance Plot of Random Forest](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/b1fe7cb4-67c5-494a-afb7-bf72de5afc4d)
+![Variable Importance Plot of Random Forest](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/263f1166-0e9a-4f74-a453-6429f23fb905)
 
 
 
 # Conclusion:
-__K-Nearest Neighbours Algorithm and Random Forest__ are the two best-performing classification models for this analysis. __However, random seed values are observed to have a significant effect on all machine learning models performance.__ __Therefore, it may be concluded that more data records are required to provide a more comprehensive assessment on all machine learning models
+__Logistic and Random Forest__ are the two best-performing classification models for this analysis. __However, random seed values are observed to have a significant effect on all machine learning models performance.__ __Therefore, it may be concluded that more data records are required to provide a more comprehensive assessment on all machine learning models.
 
 
 
@@ -87,7 +84,7 @@ __K-Nearest Neighbours Algorithm and Random Forest__ are the two best-performing
 
 __Media, P. A. (2019, December 30). Quarter of Parkinson’s sufferers were wrongly diagnosed, says charity. The Guardian.__ https://www.theguardian.com/society/2019/dec/30/quarter-of-parkinsons-sufferers-were-wrongly-diagnosed-says-charity
 
-__Yuan, W., Beaulieu-Jones, B., Krolewski, R., Palmer, N., Veyrat-Follet, C., Frau, F., Cohen, C., Bozzi, S., Cogswell, M., Kumar, D., Coulouvrat, C., Leroy, B., Fischer, T. Z., Sardi, S. P., Chandross, K. J., Rubin, L. L., Wills, A.-M., Kohane, I., & Lipnick, S. L. (2021). Accelerating diagnosis of Parkinson’s disease through risk prediction. BMC Neurology, 21(1). https://doi.org/10.1186/s12883-021-02226-4Yuan, W., Beaulieu-Jones, B., Krolewski, R., Palmer, N., Veyrat-Follet, C., Frau, F., Cohen, C., Bozzi, S., Cogswell, M., Kumar, D., Coulouvrat, C., Leroy, B., Fischer, T. Z., Sardi, S. P., Chandross, K. J., Rubin, L. L., Wills, A.-M., Kohane, I., & Lipnick, S. L. (2021). Accelerating diagnosis of Parkinson’s disease through risk prediction. BMC Neurology, 21(1).__ https://doi.org/10.1186/s12883-021-02226-4 <br>
+__Yuan, W., Beaulieu-Jones, B., Krolewski, R., Palmer, N., Veyrat-Follet, C., Frau, F., Cohen, C., Bozzi, S., Cogswell, M., Kumar, D., Coulouvrat, C., Leroy, B., Fischer, T. Z., Sardi, S. P., Chandross, K. J., Rubin, L. L., Wills, A.-M., Kohane, I., & Lipnick, S. L. (2021). Accelerating diagnosis of Parkinson’s disease through risk prediction. BMC Neurology, 21(1). https://doi.org/10.1186/s12883-021-02226-4__
 
 __National Institute on Aging. (2022, April 14). Parkinson’s disease: Causes, Symptoms, and Treatments. National Institute on Aging.__ https://www.nia.nih.gov/health/parkinsons-disease
 
