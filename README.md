@@ -1,5 +1,8 @@
-# Predictive Diagnosis of Parkinson Disease 
+# Note:
 
+   The sample.split function in r is generating different outputs despite the seed value is fixed when a new session of r is created. Therefore,
+
+# Predictive Diagnosis of Parkinson Disease 
 
 __Parkinson’s disease (PD)__ is a neurodegenerative disease that results in uncontrollable movements and behavioural changes (National Institute on Aging 2022). Over 1 in 4 people are misdiagnosed with a different condition, with nearly 50% given treatment for their incorrectly-diagnosed condition, resulting in over 34% reporting worse health than before as a result (Media, P. A. 2019).
 
