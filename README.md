@@ -62,6 +62,7 @@ __3. Classification and Regression Tree Model:__ <br>
 __Analysis of CART Model__: <br>
 a. If the record has spread1 less than -0.54, __the model prediction is that patient does not suffer from Parkinson__ <br>
 b. if the record has spread1 larger than 0.48, __the model prediction is that the patient suffer from Parkinson__ <br>
+c. Other decision criteria on model prediction can be derived using the CART Model diagram above
 
 
 ![Variable Importance Bar Chart (Optimal CART Model)](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/dcfd8ae5-b3f7-4193-9ffd-8dc97335a9b5)
