@@ -84,7 +84,7 @@ __4. Random Forest:__ <br>
 
 
 # Conclusion:
-__Logistic and Random Forest__ are the two best-performing classification models for this analysis. __However, random seed values are observed to have a significant effect on all machine learning models performance.__ __Therefore, it may be concluded that more data records are required to provide a more comprehensive assessment on all machine learning models.
+__Logistic and Random Forest__ are the two best-performing classification models for this analysis. __However, random seed values are observed to have a significant effect on all machine learning models performance.__ __Therefore, it may be concluded that more data records are required to provide a more comprehensive assessment on all machine learning models.__
 
 
 
