@@ -62,6 +62,13 @@ __3. Classification and Regression Tree Model:__ <br>
 ![Variable Importance Bar Chart (Optimal CART Model)](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/dcfd8ae5-b3f7-4193-9ffd-8dc97335a9b5)
 
 
+Analysis of Result:
+1. If the patients has a record where spread1 is less than -0.54, the prediction of the model is the patient does not suffer from Parkinson
+
+
+
+
+
 __4. Random Forest:__ <br>
    <br> F1-score 0.8695652 
    <br> Overall Accuracy Rate = 21 / 24 
