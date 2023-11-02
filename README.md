@@ -59,9 +59,9 @@ __3. Classification and Regression Tree Model:__ <br>
 
 ![Optimal CART Model](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/7e3a56eb-a5af-4661-bfbb-e18212b0c524)
 
-__Analysis of CART Model__:
-a. If the record has spread1 less than -0.54, __the model prediction is that patient does not suffer from Parkinson__
-b. if the record has spread1 larger than 0.48, __the model prediction is that the patient suffer from Parkinson__
+__Analysis of CART Model__: <br>
+a. If the record has spread1 less than -0.54, __the model prediction is that patient does not suffer from Parkinson__ <br>
+b. if the record has spread1 larger than 0.48, __the model prediction is that the patient suffer from Parkinson__ <br>
 
 
 ![Variable Importance Bar Chart (Optimal CART Model)](https://github.com/alexksh2/Parkinson-Disease-Prediction/assets/138288828/dcfd8ae5-b3f7-4193-9ffd-8dc97335a9b5)
